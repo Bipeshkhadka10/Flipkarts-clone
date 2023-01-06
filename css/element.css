@@ -1,0 +1,53 @@
+footer p{
+    color: white;
+    font-family:'Raleway', sans-serif ;
+    
+    letter-spacing: 1px;
+
+}
+
+.flipkart{
+    height: 5vh;
+    width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+a .flip1{
+    height: 25px;
+    width: auto;
+      
+}
+
+.flipkart2{
+    display: inline-block; 
+}
+
+.flipkart2 a{
+    position: relative;
+    color: white;
+    font-style: italic;
+    top: 14px;
+    left: -89px; 
+}
+
+.flipkart2 a img{
+    height: 15px;
+    position: absolute;
+    top: 4px;
+   
+    
+    
+}
+.material-symbols-outlined{
+    color: white;
+    text-align: center;
+   
+    position: relative;
+    top: 6px;
+    left: -5px;
+}
+
+

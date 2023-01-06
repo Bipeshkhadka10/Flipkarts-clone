@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Work+Sans:ital,wght@0,100;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Work+Sans:ital,wght@0,100;1,400&display=swap');
+
+:root {
+    --main-bg-color:rgb(153, 50, 204);
+  }
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+footer{
+    height:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-bg-color);
+}
+
+header nav{
+    height: 7vh;
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+
+}
+
+header nav .pages span a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'Raleway', sans-serif  ;
+    font-style:inherit;
+    padding: 0px 35px;
+}
+
+nav .search input{
+    height: 30px;
+    width: 270px;
+    font-family: 'Raleway', sans-serif ;
+    font-size: larger;
+    margin: 10px 5px;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+
+
+button{
+
+    height: 30px;
+    width: 83px;
+    color: white;
+    border: 3px solid white;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    margin-left: 50px ;
+    background-color: transparent;
+    
+    
+}
+.sell a{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: large;
+    font-weight: bold;
+    padding-right: 70px;
+
+}
+
+.material-symbols-outlined{
+    padding-left: -3px;
+    display: flex;
+    justify-content: rights;
+}
+.cart a{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    padding-left: 70px;
+    font-size: medium;
+    font-weight: bold;
+}
+.contener{
+    min-height: 78vh;
+
+}
+.slider{  
+    
+    display: flex;
+    margin: auto;
+    margin: 7vh 0px;  
+    justify-content: center;
+    justify-content: center; 
+    margin-top: 10vh; 
+}
+.slider img{
+    width: 80vw;
+    height: 70vh;
+}
+
+.card{
+   margin: auto;
+   max-width: 89vw;
+   background-color: rgb(219, 209, 209);
+   border: 3px;
+   border-bottom-right-radius:10px ;
+   border-top-left-radius: 10px;
+   
+
+
+}
+.card h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-left: 2vw;
+    margin: 21px 0px;
+    margin-top: 25px;
+    
+}
+.card-item{
+    width: 12vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction:column ;
+    padding: 0px 30px;
+    margin: 0px 12px;
+
+}
+.text-center{
+    text-align: center;
+    padding: 4px;
+    
+}
+
+.lines{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.my-2{
+    margin: 4px 0px;
+}
+
+.card:hover{
+    background-color:antiquewhite;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor:pointer;
+}
+.ecommerce-img{
+    
+    position: absolute;
+    background-color:transparent;
+    height: 30vh;
+    left: 2vw;
+    top: -10px;
+}
