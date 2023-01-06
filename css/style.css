@@ -13,6 +13,7 @@
 }
 
 footer{
+    margin-top: 10px;
     height:10vh;
     display: flex;
     justify-content: center;
@@ -120,7 +121,7 @@ button{
     font-weight: bold;
     padding-left: 2vw;
     margin: 21px 0px;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     
 }
 .card-item{
